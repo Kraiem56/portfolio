@@ -1,0 +1,78 @@
+
+.about{
+    background: var(--color-white);
+    color: var(--color-black);
+}
+img.about__img{
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+}
+h1.about__heading{
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: start;
+    color: var(--color-black);
+    font-family: Montserrat,sans-serif;
+    font-size: 60px;
+}
+button.about.btn.pointer {
+    text-transform: capitalize;
+    width: 195px;
+    height: 55px;
+    font-size: 18px;
+    transition: .4s ease;
+}
+.about__button{
+    padding: 20px 0px;
+}
+.bottom__to__top{
+    background-color: var(--color-black);
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    color: var(--color-white);
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: .4s all ease;
+    z-index: 1000;
+}
+a.bottom__to__top.active{
+    display: flex;
+}
+
+.theme-toggle {
+    position: fixed;
+    color: var(--color-black);
+    left: 2%;
+    padding: 0.5px;
+    z-index: 99;
+    bottom: 1%; 
+    cursor: pointer; 
+}
+.theme-toggle-i{
+    font-size: 40px;
+    background-color: var(--color-white);
+    border-radius: 50%;
+    
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px){
+    .p__color{
+        font-size: 15px!important;
+    }
+}
+@media only screen and (max-width: 425px){
+button.about.btn.pointer {
+    text-transform: capitalize;
+    width: 165px;
+    height: 50px;
+    font-size: 13px;
+    transition: .4s ease;
+}
+}
