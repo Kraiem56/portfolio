@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 550px) {
     .cv__navbar {
-        padding: .5rem;
+        padding: 2rem;
     }
     .cv__navbar-menu_container {
         top: 20px;

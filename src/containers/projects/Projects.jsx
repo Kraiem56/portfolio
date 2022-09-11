@@ -25,7 +25,7 @@ function Projects() {
                      Front: ReactJs,react-icons, EmailJs  <br />
                      </span>
                    <div className="button--code">
-                   <a href="#" className="project__btn">View Code</a>
+                   <a href="https://github.com/Kraiem56/portfolio" className="project__btn">View Code</a>
 
                    </div>
                      </div>
